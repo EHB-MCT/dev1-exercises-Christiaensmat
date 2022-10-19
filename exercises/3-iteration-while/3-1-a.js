@@ -16,8 +16,7 @@ function drawLines() {
 	let i = 0;
 	let spacing = 25;
 	while (i < 11) {
-		
-		Utils.drawLine(75, 75 + spacing * i, 325, offset + spacing * i);
+		Utils.drawLine(75, 75 + spacing * i, 325, 75 + spacing * i);
 		console.log("Loop!");
 		i++;
 	}

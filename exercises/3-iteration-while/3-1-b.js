@@ -17,7 +17,7 @@ function drawGrid() {
     let offset = 75;
     let spacing = 50;
     while (i < 6) {
-        let x = ;
+        let x = 1;
         let y = x;
         Utils.drawLine(75, offset + ( spacing * 1), 325, offset + (spacing * 1));
         Utils.drawLine(75 + (spacing * 1), 75, 75 + (spacing + i), 325);
