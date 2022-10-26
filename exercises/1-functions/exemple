@@ -2,7 +2,7 @@
 
 drawLine();
 
-function drawLine(){
+function drawLine() {
 
    let canvas = document.querySelector("canvas");
    canvas.width = window.innerWidth;
@@ -10,9 +10,7 @@ function drawLine(){
    let context = canvas.getContext("2d");
 
    context.lineWidth = 5;
-
-   
-   context.strokeStyle = 'red4';
+   context.strokeStyle = 'red';
    context.beginPath();
    context.moveTo(50, 50);
    context.lineTo(50, 150);
@@ -21,7 +19,6 @@ function drawLine(){
    context.lineTo(100,50);
    context.lineTo(100,150);
 
-   
    context.moveTo(150, 50);
    context.lineTo(125, 150 );
 
@@ -30,12 +27,7 @@ function drawLine(){
 
    context.moveTo(150, 50);
    context.lineTo(175,150);
-
-   context.moveTo(225, 50);
-   context.lineTo(225,150);
-
-   context.moveTo(175, 50);
-   context.lineTo(275,50);
+   
    
      
    context.stroke();
